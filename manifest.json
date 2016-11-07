@@ -1,0 +1,7 @@
+{
+  "name": "Simple ES6 App",
+  "short_name": "Simple ES6 App",
+  "start_url": "dist/index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}

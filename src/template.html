@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>EA Assignment</title>
+  </head>
+  <body>
+    <div id="header" class="header"></div>
+    <div class="content sectionContainer"></div>
+    <script>
+      // Polyfill IntersectionObserver
+      var features = [];
+      ('IntersectionObserver' in window) || features.push('IntersectionObserver');
+
+      if (features.length) {
+        var s = document.createElement('script');
+        s.src = 'https://polyfill.io/v2/polyfill.min.js?features='+features.join(',')+'&flags=gated,always&ua=chrome/50&callback=main';
+        s.async = true;
+        document.head.appendChild(s);
+      }
+    </script>
+  </body>
+</html>

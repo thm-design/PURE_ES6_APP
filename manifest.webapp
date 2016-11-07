@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "name": "ES6App",
+  "launch_path": "dist/index.html",
+  "description": "Simple ES6 App",
+  "developer": {
+    "name": "tony h. meyer",
+    "url": ""
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Simple ES6 App",
+      "description": "Simple ES6 App"
+    }
+  }
+}
